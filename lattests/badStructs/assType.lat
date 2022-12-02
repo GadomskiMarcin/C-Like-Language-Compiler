@@ -1,0 +1,10 @@
+class list {
+    int elem;
+    list next;
+}
+
+int main(){
+    list a = new list;
+    a.elem = "test";
+    return 0;
+}

@@ -1,0 +1,20 @@
+int main(){
+	int a = readInt();
+	int e = readInt();
+	int b = e * 3;
+	int d;
+	int g = 123 + e;
+	while(a > 0){
+		a--;
+		if(a > 10){
+			d = 3 * e;		
+		}
+		else {
+			d = e * 3;
+		}
+	}
+	printInt(d);
+	int f = e + 123;
+	printInt(f);
+	return 0;
+}

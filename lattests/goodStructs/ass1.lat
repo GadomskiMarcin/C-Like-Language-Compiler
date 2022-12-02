@@ -1,0 +1,17 @@
+class list {
+    int val;
+    list next;
+}
+
+class notlist {
+    int notval;
+}
+
+int main(){
+    list l = new list;
+    notlist l2 = new notlist;
+    l.val = 123;
+    l2.notval = 321;
+    printInt(l.val + l2.notval);
+    return 0;    
+}

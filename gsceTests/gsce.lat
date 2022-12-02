@@ -1,0 +1,20 @@
+int main(){
+  int a = readInt();
+  int z;
+  int v1 = a * 2;
+  int v2 = 3 + a;
+  int b = readInt();
+  int v3 = b * 100;
+  int d;
+  if(a > 10) {
+	z = 2 * a;
+	d = b * 100;
+  }
+  else{
+	z = 3 + a;
+	d = 100 * b;
+  }
+  printInt(d);
+  printInt(z);
+  return 0;
+}
